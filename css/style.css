@@ -162,6 +162,37 @@ ol {
 	background: linear-gradient(90deg, rgba(255, 199, 110, 1) 0%, #f5317f 100%);
 }
 
+.okay-btn {
+	display: inline-block;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	min-width: 218px;
+	padding: 24px 47px;
+	border-radius: 0;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.2;
+	cursor: pointer;
+	text-align: center;
+	background: linear-gradient(90deg, rgba(255, 199, 110, 1) 0%, #f5317f 100%);
+}
+
+.okay-btn:hover {
+	color: #000;
+}
+
+.okay-btn.sb-line {
+	color: #212121;
+	background: transparent;
+	padding: 22px 47px;
+	border: 2px solid #212121;
+}
+
+.okay-btn.sb-light-bg {
+	background: #f3f3f3;
+}
+
 .site-btn {
 	display: inline-block;
 	border: none;
@@ -628,12 +659,8 @@ ol {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgb(255, 199, 110);
-	background: linear-gradient(
-		90deg,
-		rgba(255, 199, 110, 1) 0%,
-		rgba(245, 49, 127, 1) 100%
-	);
+	background: #42275a;
+	background: linear-gradient(90deg, #42275a 0%, #734b6d 58%);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -863,7 +890,11 @@ ol {
 }
 
 .services-section {
-	padding: 117px 0;
+	padding: 100px 50px;
+	margin: 10px;
+	background: #42275a;
+	border-radius: 18px;
+	background: linear-gradient(90deg, #42275a 0%, #734b6d 58%);
 }
 
 .services-section .site-btn {
@@ -914,13 +945,24 @@ ol {
 	list-style: none;
 	margin-bottom: 46px;
 	padding: 0 15px;
+	height: 50px;
 }
 
 .portfolio-filter li {
 	display: inline-block;
 	font-size: 14px;
 	color: #212121;
-	font-weight: 500;
+	font-weight: normal;
+	margin-right: 46px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.portfolio-filter li:hover {
+	display: inline-block;
+	font-size: 14px;
+	color: #42275a;
+	font-weight: bold;
 	margin-right: 46px;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -936,7 +978,8 @@ ol {
 }
 
 .portfolio-item.next-btn {
-	background: #060606;
+	background: #42275a;
+	background: linear-gradient(90deg, #42275a 0%, #734b6d 58%);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1080,9 +1123,11 @@ ol {
 	font-size: 12px;
 	line-height: 1.1;
 	color: #fff;
-	padding: 9px 17px;
+	padding: 14px 17px;
 	margin-bottom: 20px;
-	background: #212121;
+	background: #42275a;
+	border-radius: 32px;
+	background: linear-gradient(90deg, #42275a 0%, #734b6d 58%);
 }
 
 .blog-post h3 {
@@ -1143,8 +1188,12 @@ ol {
 
 .site-pagination a.current {
 	color: #fff;
-	background: #212121;
-	padding: 11px 13px;
+	font-weight: bold;
+	font-size: 20px;
+	background: #42275a;
+	background: linear-gradient(90deg, #42275a 0%, #734b6d 58%);
+	border-radius: 24px;
+	padding: 07px 12px;
 }
 
 /* ----------------
