@@ -585,7 +585,7 @@ ol {
 
 .header-controls {
 	float: right;
-	padding: 16px 25px 20px 50px;
+	padding: 16px 25px 20px 0px;
 }
 
 .header-controls button {
@@ -973,13 +973,13 @@ ol {
 ---------------------*/
 
 .portfolio-section {
-	padding-top: 120px;
+	padding-top: 110px;
 }
 
 .portfolio-filter {
 	list-style: none;
 	margin-bottom: 46px;
-	padding: 0 15px;
+	padding: 10px 15px;
 	height: 50px;
 }
 
@@ -1036,6 +1036,16 @@ ol {
   Portfolio page 2
 ---------------------*/
 
+.portfolio-3-section {
+	padding-top: 70px;
+	padding-bottom: 100px;
+	overflow: hidden;
+}
+
+.portfolio-3-section .site-btn {
+	margin-top: 40px;
+}
+
 .portfolio-2-section {
 	padding-top: 120px;
 	padding-bottom: 100px;
@@ -1071,7 +1081,7 @@ ol {
 ---------------------*/
 
 .portfolio-3-section {
-	padding-top: 120px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 	overflow: hidden;
 }
@@ -1334,6 +1344,99 @@ ol {
 
 .text-msg:-ms-input-placeholder {
 	padding-top: 130px;
+}
+
+.pricingdiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.pricingdiv ul.theplan {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	border-top-left-radius: 50px;
+	border-radius: 8px;
+	color: white;
+	background: #7c3ac9;
+	position: relative;
+	width: 340px; /* width of each table */
+	margin-right: 50px; /* spacing between tables */
+	margin-bottom: 1em;
+	transition: all 0.5s;
+}
+
+.pricingdiv ul.theplan:hover {
+	/* when mouse hover over pricing table */
+	transform: scale(1.05);
+	transition: all 0.5s;
+	z-index: 100;
+	box-shadow: 0 0 10px gray;
+}
+
+.pricingdiv ul.theplan li {
+	margin: 10px 20px;
+	position: relative;
+}
+
+.pricingdiv ul.theplan li.title {
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	text-transform: uppercase;
+	border-bottom: 5px solid white;
+}
+
+.pricingdiv ul.theplan:nth-of-type(2) {
+	background: #e53499;
+}
+
+.pricingdiv ul.theplan:nth-of-type(3) {
+	background: #2a2cc8;
+}
+
+.pricingdiv ul.theplan:last-of-type {
+	/* remove right margin in very last table */
+	margin-right: 0;
+}
+
+/*very last LI within each pricing UL */
+.pricingdiv ul.theplan li:last-of-type {
+	text-align: center;
+	margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
+}
+
+.pricingdiv a.pricebutton {
+	background: white;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	margin: 10px auto;
+	border-radius: 5px;
+	color: navy;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+	.pricingdiv ul.theplan {
+		border-radius: 8px;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.pricingdiv ul.theplan:hover {
+		transform: none;
+		box-shadow: none;
+	}
+
+	.pricingdiv a.pricebutton {
+		display: block;
+	}
 }
 
 /* ----------------
