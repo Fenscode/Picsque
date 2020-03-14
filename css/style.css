@@ -1362,7 +1362,17 @@ ol {
 	border-top-left-radius: 50px;
 	border-radius: 8px;
 	color: white;
-	background: #7c3ac9;
+	background: #6a3093; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#a044ff,
+		#6a3093
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#a044ff,
+		#6a3093
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	position: relative;
 	width: 340px; /* width of each table */
 	margin-right: 50px; /* spacing between tables */
@@ -1389,15 +1399,35 @@ ol {
 	text-align: center;
 	margin-top: 20px;
 	text-transform: uppercase;
-	border-bottom: 5px solid white;
+	border-bottom: 2px solid white;
 }
 
 .pricingdiv ul.theplan:nth-of-type(2) {
-	background: #e53499;
+	background: #42275a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#734b6d,
+		#42275a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#734b6d,
+		#42275a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .pricingdiv ul.theplan:nth-of-type(3) {
-	background: #2a2cc8;
+	background: #b24592; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#f15f79,
+		#b24592
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#f15f79,
+		#b24592
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .pricingdiv ul.theplan:last-of-type {
