@@ -1249,6 +1249,32 @@ ol {
 }
 
 /* ----------------
+  Blog detail page
+---------------------*/
+
+.blog-banner {
+	height: 463px;
+	position: relative;
+}
+
+.blog-banner img {
+	max-width: 100%;
+	height: 463px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ----------------
+  Contact page
+---------------------*/
+
+.map {
+	height: 663px;
+	position: relative;
+}
+
+/* ----------------
   Contact page
 ---------------------*/
 

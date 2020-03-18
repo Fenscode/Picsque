@@ -53,15 +53,15 @@
 				<li>
 					<a href="#">Categories</a>
 					<ul class="sub-menu">
-						<li><a href="portfolio.html">Wedding</a></li>
-						<li><a href="portfolio.html">Pre Wedding</a></li>
-						<li><a href="portfolio.html">Engagement</a></li>
-						<li><a href="portfolio.html">Events</a></li>
-						<li><a href="portfolio.html">Festivals</a></li>
-						<li><a href="portfolio.html">Portrait</a></li>
-						<li><a href="portfolio.html">Products</a></li>
-						<li><a href="portfolio.html">Fashion</a></li>
-						<li><a href="portfolio.html">Sports</a></li>
+						<li><a href="categories/wedding.html">Wedding</a></li>
+						<li><a href="categories/pre-wedding.html">Pre Wedding</a></li>
+						<li><a href="categories/engagement.html">Engagement</a></li>
+						<li><a href="categories/events.html">Events</a></li>
+						<li><a href="categories/festivals.html">Festivals</a></li>
+						<li><a href="categories/potraits.html">Portrait</a></li>
+						<li><a href="categories/products.html">Products</a></li>
+						<li><a href="categories/fashion.html">Fashion</a></li>
+						<li><a href="categories/sports.html">Sports</a></li>
 					</ul>
 				</li>
 				<li><a href="blog.html">Blog</a></li>
@@ -92,7 +92,7 @@
 						<div class="blog-post">
 							<img src="img/blog/1.jpg" alt="" />
 							<div class="blog-date">Mar 17, 2020</div>
-							<h3>10 Tips for a great shot</h3>
+							<h3 id="title">10 Tips for a great shot</h3>
 							<div class="blog-cata">
 								<span>Lifestyle</span>
 								<span>Photography</span>
@@ -104,14 +104,19 @@
 								Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
 								maecenas.
 							</p>
-							<a href="" class="okay-btn">Read more</a>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title').innerHTML)"
+								>Read more</a
+							>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="blog-post">
 							<img src="img/blog/2.jpg" alt="" />
 							<div class="blog-date">Mar 01, 2020</div>
-							<h3>Photography cousrses 101</h3>
+							<h3 id="title2">Photography cousrses 101</h3>
 							<div class="blog-cata">
 								<span>Lifestyle</span>
 								<span>Photography</span>
@@ -123,128 +128,19 @@
 								gravi-da. Risus commodo viverra maecenas ac-cumsan lacus vel
 								facilisis.
 							</p>
-							<a href="" class="okay-btn">Read more</a>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title2').innerHTML)"
+								>Read more</a
+							>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="blog-post">
 							<img src="img/blog/3.jpg" alt="" />
 							<div class="blog-date">Feb 27, 2020</div>
-							<h3>New Lifestyle event</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Sed do eiusmod tempor incididunt ut labore et dolore magna
-								aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo
-								viverra maecenas accumsan lacus vel facili-sis commodo viverra
-								maecenas.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/4.jpg" alt="" />
-							<div class="blog-date">Feb 11, 2020</div>
-							<h3>How to Do Panning Photography (8 Useful Tips)</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incidi-dunt ut labore et dolore magna aliqua.
-								Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-								maecenas.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/5.jpg" alt="" />
-							<div class="blog-date">Jan 27, 2020</div>
-							<h3>The Best Camera Gimbals and Stabilizers in 2020</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-								gravi-da. Risus commodo viverra maecenas ac-cumsan lacus vel
-								facilisis.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/6.jpg" alt="" />
-							<div class="blog-date">Jan 02, 2020</div>
-							<h3>Best Mirrorless Camera for Beginners</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Sed do eiusmod tempor incididunt ut labore et dolore magna
-								aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo
-								viverra maecenas accumsan lacus vel facili-sis commodo viverra
-								maecenas.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/7.jpg" alt="" />
-							<div class="blog-date">Dec 16, 2019</div>
-							<h3>395 Photography Themes You Can Do to Improve Your Photos</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incidi-dunt ut labore et dolore magna aliqua.
-								Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-								maecenas.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/8.jpg" alt="" />
-							<div class="blog-date">Dec 10, 2019</div>
-							<h3>15 Best Sites to Sell Photos Online and<br />Make Money</h3>
-							<div class="blog-cata">
-								<span>Lifestyle</span>
-								<span>Photography</span>
-								<span>Travel</span>
-							</div>
-							<p>
-								Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-								gravi-da. Risus commodo viverra maecenas ac-cumsan lacus vel
-								facilisis.
-							</p>
-							<a href="" class="okay-btn">Read more</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="blog-post">
-							<img src="img/blog/9.jpg" alt="" />
-							<div class="blog-date">Nov 22, 2019</div>
-							<h3>40 Amazing Model Poses for Absolutely Gorgeous Results</h3>
+							<h3 id="title3">New Lifestyle event</h3>
 							<div class="blog-cata">
 								<span>Lifestyle</span>
 								<span>Photography</span>
@@ -257,10 +153,163 @@
 								maecenas.
 							</p>
 							<a
-								href="#myModal"
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title3').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/4.jpg" alt="" />
+							<div class="blog-date">Feb 11, 2020</div>
+							<h3 id="title4">How to Do Panning Photography (8 Useful Tips)</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incidi-dunt ut labore et dolore magna aliqua.
+								Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas.
+							</p>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title4').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/5.jpg" alt="" />
+							<div class="blog-date">Jan 27, 2020</div>
+							<h3 id="title5 ">
+								The Best Camera Gimbals and Stabilizers in 2020
+							</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+								gravi-da. Risus commodo viverra maecenas ac-cumsan lacus vel
+								facilisis.
+							</p>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title5').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/6.jpg" alt="" />
+							<div class="blog-date">Jan 02, 2020</div>
+							<h3 id="title6">Best Mirrorless Camera for Beginners</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo
+								viverra maecenas accumsan lacus vel facili-sis commodo viverra
+								maecenas.
+							</p>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title6').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/7.jpg" alt="" />
+							<div class="blog-date">Dec 16, 2019</div>
+							<h3 id="title7">
+								395 Photography Themes You Can Do to Improve Your Photos
+							</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incidi-dunt ut labore et dolore magna aliqua.
+								Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas.
+							</p>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title7').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/8.jpg" alt="" />
+							<div class="blog-date">Dec 10, 2019</div>
+							<h3 id="title8">
+								15 Best Sites to Sell Photos Online and<br />Make Money
+							</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+								gravi-da. Risus commodo viverra maecenas ac-cumsan lacus vel
+								facilisis.
+							</p>
+							<a
+								href="blog-detail.html"
+								class="okay-btn"
+								onclick="setSessionData(document.getElementById('title8').innerHTML)"
+								>Read more</a
+							>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="blog-post">
+							<img src="img/blog/9.jpg" alt="" />
+							<div class="blog-date">Nov 22, 2019</div>
+							<h3 id="title9">
+								40 Amazing Model Poses for Absolutely Gorgeous Results
+							</h3>
+							<div class="blog-cata">
+								<span>Lifestyle</span>
+								<span>Photography</span>
+								<span>Travel</span>
+							</div>
+							<p>
+								Sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo
+								viverra maecenas accumsan lacus vel facili-sis commodo viverra
+								maecenas.
+							</p>
+							<a
+								href="blog-detail.html"
 								role="button"
 								class="okay-btn"
 								data-toggle="modal"
+								onclick="setSessionData(document.getElementById('title9').innerHTML)"
 								>Read more</a
 							>
 						</div>
@@ -316,6 +365,16 @@
 		<!-- Search model end -->
 
 		<!--====== Javascripts & Jquery ======-->
+		<script>
+			function setSessionData(heading) {
+				// Check browser support
+				if (typeof Storage !== "undefined") {
+					// Store
+					sessionStorage.setItem("blog-heading", heading);
+				}
+			}
+		</script>
+
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.slicknav.min.js"></script>
